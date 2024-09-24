@@ -1,4 +1,4 @@
-This is an implementation of **[Airwallex Embedded Elements]**(https://www.airwallex.com/docs/payments__embedded-elements):
+This is an implementation of [Airwallex Embedded Elements](https://www.airwallex.com/docs/payments__embedded-elements):
 
 - Card (https://github.com/airwallex/airwallex-payment-demo/blob/master/docs/card.md)
 - Full Featured Card (https://github.com/airwallex/airwallex-payment-demo/blob/master/docs/fullfeaturedcard.md)
@@ -6,6 +6,7 @@ This is an implementation of **[Airwallex Embedded Elements]**(https://www.airwa
 https://www.airwallex.com/docs/payments__embedded-elements__card-element
 
 **How to run the app:**
+
 (It's a React app so we have both client-side and server-side)
 
 1. Update the `.env` with a valid `AIRWALLEX_BEARER_TOKEN`
@@ -22,6 +23,7 @@ If you want to implement the Full Card Element then in the App.js:
 
 
 **Technical details about the implementation:**
+
 
 1. From the NavBar.js page we call the backend and send amount, currency 
 2. We back the resposne and exctract `client_secret` and `id`
